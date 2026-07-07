@@ -119,7 +119,7 @@ export function AuthPage({ mode, onSubmit, onSwitch }: AuthPageProps) {
             disabled={submitting}
             className="focus-ring mt-10 h-[52px] w-full rounded-lg bg-yellow text-sm font-medium text-ink transition-colors hover:bg-yellow-hover active:scale-[0.99] disabled:opacity-60"
           >
-            {submitting ? "Please wait…" : isLogin ? "Log in" : "Sign up"}
+            {submitting ? "Please wait for like 3 mins…" : isLogin ? "Log in" : "Sign up"}
           </button>
         </form>
       </div>
